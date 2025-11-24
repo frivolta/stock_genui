@@ -1,0 +1,19 @@
+
+> yt_genui@0.1.0 lint
+> eslint
+
+
+/Users/filipporivolta/Desktop/Management/Sites/Apps/yt_genui/app/page.tsx
+  37:47  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  37:66  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  37:71  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  37:88  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+/Users/filipporivolta/Desktop/Management/Sites/Apps/yt_genui/components/ui/input.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+/Users/filipporivolta/Desktop/Management/Sites/Apps/yt_genui/tailwind.config.ts
+  77:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 6 problems (6 errors, 0 warnings)
+
